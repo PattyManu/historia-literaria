@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+
+    height: 100vh;
+
+
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+
+
+.cabeca {
+    display: flex;
+
+    justify-content: flex-end;
+
+
+    width: 1300px;
+    height: 50px;
+    background-color: rgb(169, 207, 30);
+}
+
+
+.logo-livro img {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    width: 100px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+
+    align-items: center;
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    width: 40px;
+    margin: 30px;
+
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
