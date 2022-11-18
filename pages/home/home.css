@@ -7,57 +7,103 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 
 
-    height: 100vh;
-
-
-    background-color: aquamarine;
+    background-color: rgb(183, 231, 215);
     color: rgb(0, 0, 0);
 }
 
-
-.cabeca {
+.header {
     display: flex;
+    justify-content: center;
 
-    justify-content: flex-end;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    border-radius: 10px;
 
 
     width: 1300px;
     height: 50px;
-    background-color: rgb(169, 207, 30);
+    background-color: rgb(96, 177, 123);
 }
 
 
-.logo-livro img {
-
+.logo-livro {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-items: left;
+    border: 10px;
+    height: 50px;
+}
 
-
-    width: 100px;
+.logo-livro img {
+    border-radius: 10px;
     height: 50px;
 }
 
 ul {
     display: flex;
-
     align-items: center;
 }
 
 li {
     display: flex;
-    justify-content: space-around;
+    margin-left: 10px;
+
     width: 40px;
     margin: 30px;
 
     list-style-type: none;
 }
 
+.categoriasDeGeneros,
+.momentosHistoricos {
+    font-size: 20px;
+}
+
+.botao-de-espquisa {
+    display: flex;
+    align-items: center;
+}
+
 a {
-    color: black;
+    color: rgb(95, 85, 85);
     font-size: 25px;
     text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-self: center;
+    margin-top: 1000px;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 1300px;
+    height: 100px;
+
+    border-radius: 20px;
+    background-color: rgb(96, 177, 123);
+}
+
+.icone {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    letter-spacing: 10px;
+    flex-direction: row-reverse;
+    padding-left: 1200px;
 }
