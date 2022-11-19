@@ -6,13 +6,7 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
     background-color: rgb(183, 231, 215);
-    color: rgb(0, 0, 0);
 }
 
 .header {
@@ -20,7 +14,6 @@ body {
     justify-content: center;
 
 }
-
 
 .cabecalho {
     display: flex;
@@ -65,45 +58,127 @@ li {
 
 .categoriasDeGeneros,
 .momentosHistoricos {
+    color: rgb(234, 247, 239);
     font-size: 20px;
 }
 
-.botao-de-espquisa {
-    display: flex;
-    align-items: center;
+input[type="text"] {
+    margin: 2px 1px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Loto', sans-serif;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.primeira-section {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.frase-debaixo-do-logo-do-livro {
+    position: absolute;
+    background-color: aliceblue;
+    width: 320px;
+    top: 359px;
+
+    margin: 15px 9px;
+}
+
+.frase-maximo-gorky {
+    font-size: 20px;
+}
+
+
+.imagem-do-fundo img {
+    width: 1309px;
+    align-self: center;
+    padding: 8px 2px;
+    margin: 5px;
+    position: static;
+
+    height: 450px;
 }
 
 a {
-    color: rgb(95, 85, 85);
-    font-size: 25px;
     text-decoration: none;
 }
 
+/* .caixa-de-introducao {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 400px;
+    height: 400px;
+    margin: 15px 15px;
+    padding: 10px 10px;
+
+}
+
+.caixa-de-introducao span {
+    color: rgb(31, 62, 90);
+    margin: 5px 5px;
+    font-family: 'Loto', sans-serif;
+    font-size: 25px;
+
+}
+
+.primeiro-paragrafo-da-caixa {
+    color: rgb(16, 42, 65);
+    font-family: 'Loto', sans-serif;
+    width: 400px;
+    height: 400px;
+    margin: 1px -5px;
+    padding: 7px 10px;
+    font-size: 24px;
+} */
+
+
 footer {
     display: flex;
-    align-self: center;
-    margin-top: 1000px;
+    width: 100%;
+    bottom: 0px;
+    position: static;
 
+    align-self: center;
 }
 
 .rodape {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
     width: 1300px;
-    height: 100px;
+    height: 140px;
 
-    border-radius: 20px;
     background-color: rgb(96, 177, 123);
 }
 
 .icone {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    justify-content: right;
 
     letter-spacing: 10px;
-    flex-direction: row-reverse;
-    padding-left: 1200px;
+}
+
+.icone img {
+    width: 35px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.facebook,
+.github,
+.discord,
+.linkedin {
+    font-size: 10px;
+}
+
+.sobre-mim-div {
+    padding: 10px;
+}
+
+.sobre-mim {
+    color: rgb(234, 247, 239);
+    font-size: 25px;
 }
