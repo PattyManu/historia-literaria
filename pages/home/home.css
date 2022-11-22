@@ -100,9 +100,6 @@ input[type="text"] {
     height: 450px;
 }
 
-a {
-    text-decoration: none;
-}
 
 /* .caixa-de-introducao {
     display: flex;
@@ -147,7 +144,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin: 0 auto;
+
     width: 1300px;
     height: 140px;
 

@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    border-radius: 10px;
+
+
+    width: 1300px;
+    height: 50px;
+    background-color: rgb(96, 177, 123);
+}
+
+
+.logo-livro {
+    display: flex;
+    justify-items: left;
+    border: 10px;
+    height: 50px;
+}
+
+.logo-livro img {
+    border-radius: 10px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    margin-left: 10px;
+
+    width: 40px;
+    margin: 30px;
+
+    list-style-type: none;
+}
+
+.categoriasDeGeneros,
+.momentosHistoricos {
+    color: rgb(234, 247, 239);
+    font-size: 20px;
+}
+
+input[type="text"] {
+    margin: 2px 1px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Loto', sans-serif;
+    border: 1px solid white;
+    border-radius: 10px;
+}
